@@ -1,5 +1,5 @@
 import random
-import argparse >>
+import argparse 
 from typing import List, Optional, Tuple
 
 Grid = List[List[int]]
