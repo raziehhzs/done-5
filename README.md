@@ -2,7 +2,7 @@ import random
 import argparse 
 from typing import List, Optional, Tuple
 
-Grid = List[List[int]]
+Grid  List[List[int]]
 
 def print_grid(grid: Grid) -> None:
     def cell(v): return "." if v == 0 else str(v)
